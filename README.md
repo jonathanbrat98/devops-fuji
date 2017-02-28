@@ -14,16 +14,18 @@ containing a commit message, sha, authorship. An example git commit:
 
 ```
 commit 55c0bb88b6e4f096574991dd9217bcf8c745d05e
-Author: Dan Alvizu <dalvizu@pingidentity.com>
+Author: Example User <example@pingidentity.com>
 Date:   Mon May 4 17:09:19 2015 -0600
 
     SSD-101 super duper feature
     Fix tomcat issue with using forks over spoons.
-
-    Change-Id: I6b93e75c275f0703c9267a75eac3a5cbb22dc0fe
 ```
 
+These git commits will be provided as a `GitCommit` object by another program.
+
 Your assignment is to write a method which returns 'SSD-101' given this input, and a general solution to return all of the tickets present in any git commits provided.
+
+Basically, implement this function: [App#getJiraTickets()](https://github.com/dalvizu/devops-fuji/blob/master/src/main/java/com/pingidentity/App.java#L15)
 
 _Note_: The string 'SSD-101' is the 'key' of a JIRA issue. JIRA is a popular ticketing system in software development and common in the open source community. The key of an issue is its project name (`SSD`) followed by a hyphen and then a number (`101`). For more information on what an issue is, see [what is an issue?](https://confluence.atlassian.com/jira064/what-is-an-issue-720416138.html)
 
