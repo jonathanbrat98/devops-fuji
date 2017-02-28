@@ -33,6 +33,10 @@ This method and the supporting domain objects have been provided in the src fold
 
 If you have any questions, feel free to ask through your Ping contact. You'll be asked to present your solution to an interview panel of engineers and argue for any decisions you're making, so be prepared to discuss your solution. Remember to document any assumptions you may be making.
 
+## Submitting:
+
+To submit your answer, open a merge request, or simply zip up the archive and send them back to your Ping contact.
+
 ## Required Tools
 * git
 * java
