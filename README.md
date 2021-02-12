@@ -35,7 +35,8 @@ If you have any questions, feel free to ask through your Ping contact. You'll be
 
 ## Submitting:
 
-To submit your answer, open a merge request, or simply zip up the archive and send them back to your Ping contact.
+To submit your answer, create a private fork of this repository, commit and push your solution, 
+and send it back to your Ping contact.
 
 ## Required Tools
 * git
